@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../style/main.css" />
+  <link rel="stylesheet" href="../style/pages.css">
+  <link rel="stylesheet" href="../style/responsive.css">
+  <title>Contact</title>
+</head>
+
+<body>
+  <header class="section_header">
+    <nav>
+      <ul class="navigation">
+        <li class="nav_button">
+          <a href="../index.html">
+            home
+          </a>
+        </li>
+        <li class="nav_button">
+          <a href="../pages/regions.html">
+            regions
+          </a>
+        </li>
+        <li class="nav_logo">
+          <a href="../index.html"><img src="../images/logo.png" alt="" class="logo">
+          </a>
+
+        </li>
+        <li class="nav_button">
+          <a href="../pages/tips.html">
+            tips
+          </a>
+        </li>
+        <li class="nav_button">
+          <a href="../pages/contacts.html">
+            contact
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <div class="contact-banner">
+    <h2>Use the form below to contact us</h2>
+  </div>
+
+  <form name="contact-form" class="contact-form">
+    <div class="form-control">
+      <label>Full Name</label>
+      <input name="name" placeholder="First and Last Name" />
+      <div class="error hide">Name is required</div>
+    </div>
+
+    <div class="form-control">
+      <label>Email</label>
+      <input name="email" placeholder="your_email@example.com" />
+      <div class="error hide">Email is invalid</div>
+    </div>
+
+    <div class="form-control">
+      <label>Phone Number</label>
+      <input name="phone">
+      <div class="error hide">Phone is invalid</div>
+    </div>
+
+    <div class="form-control">
+      <label>Message</label>
+      <textarea name="message"></textarea>
+      <div class="error hide">Message is required</div>
+    </div>
+
+    <button type="submit">SUBMIT FORM</button>
+  </form>
+
+  <footer>
+    <div class="footer_box1">
+      <div class="footer_column">
+        <h3 class="menu">MENU</h3>
+        <ul class="text-decoration-none">
+          <li><a href="../index.html">
+              Home
+            </a></li>
+          <li><a href="/pages/regions.html">
+              Regions
+            </a></li>
+          <li><a href="https://www.lostwithpurpose.com/things-to-know-uzbekistan/">
+              Tips
+            </a></li>
+          <li><a href="/pages/contact.html">
+              Contact
+            </a></li>
+        </ul>
+        <div class="soc_icons">
+          <a href="">
+            <img src="../images/twitter.png" alt="" />
+          </a>
+          <a href="">
+            <img src="../images/facebook.png" alt="" />
+          </a>
+          <a href="">
+            <img src="../images/instagram.png" alt="" />
+          </a>
+        </div>
+      </div>
+      <div class="footer_column">
+        <h3 class="menu">Adress</h3>
+        <div class="content">
+          <div class="place">
+            <img src="../images/placeholder.png" alt="" />
+            <span>Uzbekistan, Tashkent</span>
+          </div>
+
+          <div class="phone">
+            <img src="../images/phone-call.png" alt="" />
+            <span class="phone_number">+998XX-XXXXXXXX</span>
+          </div>
+
+          <div class="email">
+            <img src="../images/mail.png" alt="" />
+            <span>abcd@gmail.com</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer_column">
+        <h3 class="menu">CONTACT US</h3>
+        <form class="footer_form content">
+          <p>Email *</p>
+          <input type="text" />
+          <p>Message *</p>
+          <textarea cols="30" rows="5"></textarea>
+          <div class="text-center">
+            <button type="submit" value="submit" class="submit_cnt_btn">
+              Send
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <p class="restriction">
+      This website was created to fulfill Web Technology module’s requirements
+      and does not represent an actual company or service
+    </p>
+  </footer>
+  <script src="../js/contact.js"></script>
+</body>
+
+</html>
