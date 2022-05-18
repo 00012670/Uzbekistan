@@ -285,15 +285,20 @@ footer {
   line-height: 1;
 }
 
+.text-decoration-none {
+  padding-left: 0px;
+}
+
 .soc_icons {
   display: flex;
   flex-direction: row;
+  padding-bottom: 40px;
 }
 
 .soc_icons a {
   text-decoration: none;
   padding-right: 10px;
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 .soc_icons img {
@@ -318,15 +323,19 @@ footer {
 
 .footer_form p {
   font-size: 13px;
+  position: absolute;
+  margin-left: 10px;
 }
 
+
 .footer_form input {
-  width: 100%;
-  height: 35px;
-  border: 1px solid black;
-  background-color: #252424;
-  border-radius: 4px;
-  color: #fff;
+    width: 100%;
+    height: 35px;
+    /* border: 1px solid black; */
+    background-color: #252424;
+    border-radius: 4px;
+    /* color: #fff; */
+    margin-bottom: 12px;
 }
 
 .footer_form textarea {
@@ -366,4 +375,8 @@ footer {
 .form-control {
   margin: 0 auto;
   width: fit-content;
+}
+
+.contact-form {
+  position: relative;
 }
